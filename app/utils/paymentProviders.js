@@ -29,7 +29,7 @@ const mpesaExpressProvider = {
       TransactionDesc: `Payment for Order ${orderId}`,
     };
 
-    console.log("requestBody", requestBody);
+    console.log("requestBody", accessToken, requestBody);
 
     try {
       const response = await axios.post(
